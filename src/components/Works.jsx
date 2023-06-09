@@ -1,4 +1,4 @@
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -6,6 +6,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import {  github } from "../assets";
 
 const ProjectCard = ({
   index,
@@ -89,7 +90,7 @@ const Works = () => {
           className="flex items-center gap-2 mt-4 py-2 px-4 text-white bg-primary rounded-md text-lg font-bold"
           style={{ marginLeft: '-15px' }}
           >
-          <img src="src\assets\github.png" alt="Icon" className="w-8 h-8" />
+          <img src={github} alt="Icon" className="w-8 h-8" />
           See more projects on GitHub! <span>&rarr;</span>
         </button>
         </motion.p>

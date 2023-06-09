@@ -1,11 +1,12 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { linkedin } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -61,7 +62,7 @@ const About = () => {
           className="flex items-center gap-2 mt-4 py-2 px-4 text-white bg-primary rounded-md text-lg font-bold"
           style={{ marginLeft: '-15px' }}
           >
-          <img src="src\assets\linkedin.png" alt="Icon" className="w-8 h-8" />
+          <img src={linkedin} alt="Icon" className="w-8 h-8" />
           Connect with me on LinkedIn! <span>&rarr;</span>
         </button>
 
