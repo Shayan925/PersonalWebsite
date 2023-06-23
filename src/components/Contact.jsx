@@ -27,8 +27,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        process.env.SERVICE_ID,
+        process.env.TEMPLATE_ID,
         {
           form_name: form.name,
           to_name: "Shayan Jizan",
@@ -36,7 +36,7 @@ const Contact = () => {
           to_email: "sjizan@outlook.com",
           message: form.message,
         },
-        process.env.REACT_APP_PUBLIC_KEY
+        "2OAPEO5Tj9i1kRNNN"
       )
       .then(
         () => {
