@@ -35,6 +35,7 @@ import python from "./tech/python.png";
 import redis from "./tech/redis.png";
 import tflow from "./tech/tensorflow.png";
 
+import orbital from "./company/orbital.jpg"
 import demotic from "./company/demoticdesign.png";
 import elections from "./company/elections.png";
 import cognitive from "./company/cognitiveclass.png";
@@ -85,6 +86,7 @@ export {
   redis,
   tflow,
 
+  orbital,
   demotic,
   elections,
   cognitive,

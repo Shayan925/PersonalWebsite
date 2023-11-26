@@ -12,7 +12,7 @@ const EducationCard = ({ education }) => {
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg-black-100 rounded-3xl p-6 xs:w-[350px] w-full"
+      className="bg-black-100 rounded-3xl p-6 xs:w-[320px] w-full"
     >
       <div className="mt-1">
         <img

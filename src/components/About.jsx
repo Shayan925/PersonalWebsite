@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { linkedin } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-full">
+  <Tilt className="xs:w-[230px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
@@ -51,11 +51,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am an ambitious student attending the University of Waterloo with hopes to create software that will 
+        I am a self-driven student attending the University of Waterloo with hopes to create software that will 
         one day be impactful to people's lives. Ever since I attended my first hackathon in 2019, 
         I have been exposed to the world of programming and learned about the limitless possibilities of 
-        writing code. This urged me to pursue a Bachelor's of Computer Science by combining my creativity 
-        and logical thinking abilities, as well as expand on my current set of skills.
+        writing code. This urged me to pursue a Bachelor's of Computer Science to blend my creativity 
+        with my logical thinking abilities, as well as expand on my current set of skills.
 
         <button
           onClick={handleConnectClick}
@@ -68,7 +68,7 @@ const About = () => {
 
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-7">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

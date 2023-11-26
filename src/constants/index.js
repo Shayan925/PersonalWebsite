@@ -32,6 +32,7 @@ import {
   demotic,
   elections,
   cognitive,
+  orbital,
 
   adhd,
   path,
@@ -81,7 +82,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Passion for AI & Cloud Computing",
+    title: "Passion for New Technologies",
     icon: backend,
   },
   {
@@ -126,7 +127,7 @@ const education = [
     icon: waterloo,
     points: [
       "President's Scholarship of Distinction",
-      "AP Computer Science",
+      "UW Orbital Club Member"
     ],
   },
 
@@ -204,13 +205,24 @@ const experiences = [
     company_name: "Demotic Design",
     icon: demotic,
     iconBg: "#E6DEDD",
-    date: "June 2022 - Present",
+    date: "June 2022 - Aug 2023",
     points: [
-      "Oversaw website development, administered server-side functionality, and managed email hosting service.",
-      "Directed a small team of developers while demonstrating excellent communication skills to explain consulting solutions to customers.",
-      "Diagnosed and troubleshooted server-side computer issues.",
-      "Coordinated and distributed tasks based on each person's skill set to ensure efficient workflow.",
-      "Kept up with the latest technology trends and strategies to improve the customer experience and deliver high-quality services.",
+      "Administered server-side computer operations, overseeing functions like email hosting services and ensured website availability, resulting in a 99.9% uptime.",
+      "Collaborated with a team of three developers while showcasing strong communication abilities to articulate consulting solutions to clients.",
+      "Designed and implemented cron job solutions to automate routine system tasks such as file cleanup, achieving a 14% reduction in hosting costs.",
+      "Kept up with the latest technology trends and strategies to deliver new high-quality services.",
+    ],
+  },
+  {
+    title: "Embedded Firmware Developer",
+    company_name: "UW Orbital Club",
+    icon: orbital,
+    iconBg: "#E6DEDD",
+    date: "Sep 2023 - Present",
+    points: [
+      "Engineered fault-tolerant temperature sensor firmware using interrupt handlers to monitor system fluctuations on the satellite in real time.",
+      "Optimized forward error correction libraries with static memory allocation to eliminate nondeterministic behaviour when transmitting data in extreme conditions.",
+      "Tools & Technologies Used: C-programming, FreeRTOS, deadlocks, semaphores, mutexes, etc.",
     ],
   },
 
