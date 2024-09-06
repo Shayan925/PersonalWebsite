@@ -7,7 +7,6 @@ import github from "./github.png";
 import linkedin from "./linkedin.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -24,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 import bash from "./tech/bash.png";
 import cpp from "./tech/c++.png";
 import gcp from "./tech/gcp.png";
+import microsoft from "./company/microsoft.png";
 import hadoop from "./tech/hadoop.png";
 import java from "./tech/java.png";
 import kubernetes from "./tech/kubernetes.png";
@@ -34,14 +34,14 @@ import opencv from "./tech/opencv.png";
 import python from "./tech/python.png";
 import redis from "./tech/redis.png";
 import tflow from "./tech/tensorflow.png";
-
 import orbital from "./company/orbital.jpg"
 import demotic from "./company/demoticdesign.png";
 import elections from "./company/elections.png";
 import cognitive from "./company/cognitiveclass.png";
 import helsinki from "./company/helsinki.png";
 import waterloo from "./company/uw.png";
-
+import sap from "./company/sap.png";
+import dataannotation from "./company/dataannotation.png";
 import adhd from "./adhd.png";
 import path from "./path.png";
 import symptoms from "./symptoms.png";
@@ -75,6 +75,7 @@ export {
   bash,
   cpp,
   gcp,
+  microsoft,
   hadoop,
   java,
   kubernetes,
@@ -85,14 +86,14 @@ export {
   python,
   redis,
   tflow,
-
   orbital,
   demotic,
   elections,
   cognitive,
   helsinki,
   waterloo,
-
+  sap,
+  dataannotation,
   adhd,
   path,
   symptoms,

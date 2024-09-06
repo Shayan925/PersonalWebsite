@@ -18,6 +18,7 @@ import {
   bash,
   cpp,
   gcp,
+  microsoft,
   hadoop,
   java,
   kubernetes,
@@ -28,12 +29,13 @@ import {
   python,
   redis,
   tflow,
-
+  linkedin,
   demotic,
   elections,
   cognitive,
   orbital,
-
+  sap,
+  dataannotation,
   adhd,
   path,
   symptoms,
@@ -130,7 +132,16 @@ const education = [
       "UW Orbital Club Member"
     ],
   },
-
+  {
+    title: "Career Essentials in Project Management",
+    company_name: "Microsoft (Jul 2024)",
+    icon: microsoft,
+    points: [
+      "Develop comprehensive project plans, manage timelines, allocate resources, and mitigate risks to ensure successful project execution.",
+      "Communicate effectively with stakeholders, build relationships, and address their needs and concerns.",
+      "Understanding of agile principles and hands-on experience with Microsoft Project software for efficient project management.",
+    ],
+  },
   {
     title: "Certificate: Perform Foundational Infrastructure Tasks in Google Cloud",
     company_name: "Google (Dec 2021)",
@@ -161,6 +172,25 @@ const education = [
       "Performed Docker containerization, image management, and deployment techniques, enabling streamlined application delivery and environment consistency.",
       "Used Docker Compose for multi-container application management and familiarized myself with container orchestration tools like Kubernetes for efficient scalability and administration.",
       "Demonstrated Docker networking concepts, including container communication and external service exposure. Adhered to best practices for Docker security, ensuring container isolation and implementing access controls for secure application deployment.",
+    ],
+  },
+  {
+    title: "Programming Foundations: Databases",
+    company_name: "LinkedIn (Jul 2024)",
+    icon: linkedin,
+    points: [
+      "Acquired a deep understanding of relational database concepts, including normalization, entity-relationship modeling, and data integrity constraints.",
+      "Develop expertise in optimizing database performance through query tuning, indexing, and data partitioning techniques.",
+    ],
+  },
+  {
+    title: "Learning SQL Programming",
+    company_name: "LinkedIn (Jun 2024)",
+    icon: linkedin,
+    points: [
+      "Utilize advanced SQL concepts such as joins, subqueries, and aggregate functions to handle complex data analysis tasks.",
+      "Learned SQL syntax and commands for complex data manipulation, querying, and management tasks.",
+      "Gain knowledge of database design principles, SQL Server management tools, and advanced SQL topics for efficient database management and development.",
     ],
   },
   {
@@ -195,9 +225,9 @@ const experiences = [
     iconBg: "#ffffff",
     date: "June 2022",
     points: [
-      "Performed duties in accordance with applicable standards, policies, and regulatory guidelines.",
-      "Welcomed voters and demonstrated respect, friendliness and willingness to help wherever needed.",
-      "Answered general questions and addressed, resolved or redirected escalated issues to management personnel.",
+      // "Performed duties in accordance with applicable standards, policies, and regulatory guidelines.",
+      // "Welcomed voters and demonstrated respect, friendliness and willingness to help wherever needed.",
+      // "Answered general questions and addressed, resolved or redirected escalated issues to management personnel.",
     ],
   },
   {
@@ -207,11 +237,19 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2022 - Aug 2023",
     points: [
-      "Administered server-side computer operations, overseeing functions like email hosting services and ensured website availability, resulting in a 99.9% uptime.",
-      "Collaborated with a team of three developers while showcasing strong communication abilities to articulate consulting solutions to clients.",
-      "Designed and implemented cron job solutions to automate routine system tasks such as file cleanup, achieving a 14% reduction in hosting costs.",
-      "Kept up with the latest technology trends and strategies to deliver new high-quality services.",
+      // "Administered server-side computer operations, overseeing functions like email hosting services and ensured website availability, resulting in a 99.9% uptime.",
+      // "Collaborated with a team of three developers while showcasing strong communication abilities to articulate consulting solutions to clients.",
+      // "Designed and implemented cron job solutions to automate routine system tasks such as file cleanup, achieving a 14% reduction in hosting costs.",
+      // "Kept up with the latest technology trends and strategies to deliver new high-quality services.",
     ],
+  },
+  {
+    title: "Data Annotator",
+    company_name: "DataAnnotation",
+    icon: dataannotation,
+    iconBg: "#E6DEDD",
+    date: "Sep 2023 - Apr 2024",
+    points: [],
   },
   {
     title: "Embedded Firmware Developer",
@@ -220,10 +258,18 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2023 - Present",
     points: [
-      "Engineered fault-tolerant temperature sensor firmware using interrupt handlers to monitor system fluctuations on the satellite in real time.",
-      "Optimized forward error correction libraries with static memory allocation to eliminate nondeterministic behaviour when transmitting data in extreme conditions.",
-      "Tools & Technologies Used: C-programming, FreeRTOS, deadlocks, semaphores, mutexes, etc.",
+      // "Engineered fault-tolerant temperature sensor firmware using interrupt handlers to monitor system fluctuations on the satellite in real time.",
+      // "Optimized forward error correction libraries with static memory allocation to eliminate nondeterministic behaviour when transmitting data in extreme conditions.",
+      // "Tools & Technologies Used: C-programming, FreeRTOS, deadlocks, semaphores, mutexes, etc.",
     ],
+  },
+  {
+    title: "Quality Assurance Automation Developer",
+    company_name: "SAP",
+    icon: sap,
+    iconBg: "#E6DEDD",
+    date: "May 2024 - Aug 2024",
+    points: [],
   },
 
 ];
