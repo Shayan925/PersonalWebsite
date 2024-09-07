@@ -236,11 +236,11 @@ const experiences = [
     icon: demotic,
     iconBg: "#E6DEDD",
     date: "June 2022 - Aug 2023",
-    points: [
-      "Administered server-side computer operations, used ticketing system, oversaw functions like email hosting services and ensured website availability, resulting in a 99.9% uptime.",
-      "Collaborated with a team of three developers, while showcasing strong communication abilities by articulating troubleshooting solutions to clients.",
-      "Designed and implemented cron job solutions to automate routine system tasks such as file cleanup, achieving a 14% reduction in hosting costs.",
-    ],
+    // points: [
+    //   "Administered server-side computer operations, used ticketing system, oversaw functions like email hosting services and ensured website availability, resulting in a 99.9% uptime.",
+    //   "Collaborated with a team of three developers, while showcasing strong communication abilities by articulating troubleshooting solutions to clients.",
+    //   "Designed and implemented cron job solutions to automate routine system tasks such as file cleanup, achieving a 14% reduction in hosting costs.",
+    // ],
   },
   {
     title: "Data Annotator",
@@ -254,7 +254,7 @@ const experiences = [
     title: "Embedded Firmware Developer",
     company_name: "UW Orbital Club",
     icon: orbital,
-    iconBg: "#E6DEDD",
+    iconBg: "#ffffff",
     date: "Sep 2023 - Present",
     points: [
       "Engineered fault-tolerant temperature sensor firmware using interrupt handlers to monitor system fluctuations on the satellite in real time.",
@@ -266,7 +266,7 @@ const experiences = [
     title: "QA Automation Developer",
     company_name: "SAP",
     icon: sap,
-    iconBg: "#E6DEDD",
+    iconBg: "#007cc5",
     date: "May 2024 - Aug 2024",
     points: [],
   },
