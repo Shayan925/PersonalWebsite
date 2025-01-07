@@ -231,7 +231,7 @@ const experiences = [
     ],
   },
   {
-    title: "Technical Consultant",
+    title: "Software Engineer",
     company_name: "Demotic Design",
     icon: demotic,
     iconBg: "#E6DEDD",
