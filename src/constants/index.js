@@ -315,24 +315,31 @@ const projects = [
     tags: [
       {
         name: "React",
+        color: "blue-text-gradient",
       },
       {
         name: "Node.js",
+        color: "green-text-gradient",
       },
       {
         name: "TypeScript",
+        color: "blue-text-gradient",
       },
       {
         name: "Tailwind CSS",
+        color: "violet-text-gradient",
       },
       {
         name: "PostgreSQL",
+        color: "orange-text-gradient",
       },
       {
         name: "Supabase",
+        color: "green-text-gradient",
       },
       {
         name: "FastAPI",
+        color: "blue-text-gradient",
       },
     ],
     image: financebro,
@@ -344,22 +351,28 @@ const projects = [
     tags: [
       {
         name: "Flutter",
+        color: "blue-text-gradient",
       },
       {
         name: "Firebase",
+        color: "orange-text-gradient",
       },
       {
         name: "Google Maps API",
+        color: "green-text-gradient",
       },
       {
         name: "Google Cloud Platform",
+        color: "yellow-text-gradient",
       },
       {
         name: "NoSQL",
+        color: "violet-text-gradient",
       },
       
     ],
     image: mobileapp,
+    source_code_link: "https://github.com/Shayan925/",
   },
   {
     name: "Cube Satellite",
@@ -368,21 +381,27 @@ const projects = [
     tags: [
       {
         name: "C",
+        color: "yellow-text-gradient",
       },
       {
         name: "FreeRTOS",
+        color: "orange-text-gradient",
       },
       {
         name: "Microcontroller",
+        color: "green-text-gradient",
       },
       {
         name: "SPI",
+        color: "violet-text-gradient",
       },
       {
         name: "I2C",
+        color: "violet-text-gradient",
       },
       {
         name: "UART",
+        color: "violet-text-gradient",
       }
     ],
     image: cubesat,
