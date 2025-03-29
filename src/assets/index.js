@@ -48,7 +48,9 @@ import symptoms from "./symptoms.png";
 import mp3player from "./mp3player.jpg";
 import mandelbrot from "./mandelbrot.jpg";
 import tracker from "./tracker.png";
-
+import cubesat from "./cubesat.png";
+import financebro from "./financebro.png";
+import mobileapp from "./mobileapp.png";
 export {
   logo,
   backend,
@@ -100,4 +102,7 @@ export {
   mp3player,
   mandelbrot,
   tracker,
+  cubesat,
+  financebro,
+  mobileapp,
 };

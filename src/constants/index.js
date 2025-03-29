@@ -18,6 +18,7 @@ import {
   bash,
   cpp,
   gcp,
+  cubesat,
   microsoft,
   hadoop,
   java,
@@ -45,6 +46,8 @@ import {
   tracker,
   helsinki,
   waterloo,
+  financebro,
+  mobileapp,
 } from "../assets";
 
 export const navLinks = [
@@ -231,11 +234,11 @@ const experiences = [
     ],
   },
   {
-    title: "Technical Consultant",
+    title: "Software Developer",
     company_name: "Demotic Design",
     icon: demotic,
     iconBg: "#E6DEDD",
-    date: "June 2022 - Aug 2023",
+    date: "May 2023 - Aug 2023",
     points: [
     //   "Administered server-side computer operations, used ticketing system, oversaw functions like email hosting services and ensured website availability, resulting in a 99.9% uptime.",
     //   "Collaborated with a team of three developers, while showcasing strong communication abilities by articulating troubleshooting solutions to clients.",
@@ -248,10 +251,13 @@ const experiences = [
     icon: dataannotation,
     iconBg: "#000000",
     date: "Sep 2023 - Apr 2024",
-    points: [],
+    points: [
+      "Annotated data for machine learning models and LLMs to improve accuracy and reduce model hallucinations.",
+      "Delivered technical reports communicating findings to stakeholders for iterative improvements."
+    ],
   },
   {
-    title: "Embedded Firmware Developer",
+    title: "Firmware Developer",
     company_name: "UW Orbital Club",
     icon: orbital,
     iconBg: "#ffffff",
@@ -263,7 +269,7 @@ const experiences = [
     ],
   },
   {
-    title: "QA Automation Developer",
+    title: "Software Developer in Test",
     company_name: "SAP",
     icon: sap,
     iconBg: "#007cc5",
@@ -303,6 +309,86 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "FinanceBro",
+    description: "AI chat app leveraging LLMs, RAG pipelines, agent loops, and few-shot learning to deliver accurate information and personalized financial insights. ",
+    tags: [
+      {
+        name: "React",
+      },
+      {
+        name: "Node.js",
+      },
+      {
+        name: "TypeScript",
+      },
+      {
+        name: "Tailwind CSS",
+      },
+      {
+        name: "PostgreSQL",
+      },
+      {
+        name: "Supabase",
+      },
+      {
+        name: "FastAPI",
+      },
+    ],
+    image: financebro,
+    source_code_link: "https://github.com/Shayan925/finance-bro",
+  },
+  {
+    name: "Group Planning App",
+    description: "iOS and Android app for group activity planning with Google Maps and Places API integration for place discovery.",
+    tags: [
+      {
+        name: "Flutter",
+      },
+      {
+        name: "Firebase",
+      },
+      {
+        name: "Google Maps API",
+      },
+      {
+        name: "Google Cloud Platform",
+      },
+      {
+        name: "NoSQL",
+      },
+      
+    ],
+    image: mobileapp,
+  },
+  {
+    name: "Cube Satellite",
+    description:
+      "CSDC-winning 3U CubeSat, enabling successful integration of 'Selfie-Sat' and QEYnet’s post-quantum cryptography laser beacon, contributing to a project that secured funding for a space launch. ",
+    tags: [
+      {
+        name: "C",
+      },
+      {
+        name: "FreeRTOS",
+      },
+      {
+        name: "Microcontroller",
+      },
+      {
+        name: "SPI",
+      },
+      {
+        name: "I2C",
+      },
+      {
+        name: "UART",
+      }
+    ],
+    image: cubesat,
+    source_code_link: "https://www.uworbital.com/",
+  },
+
   {
     name: "ADHD Aid",
     description:
