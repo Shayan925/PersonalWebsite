@@ -47,7 +47,8 @@ import {
   helsinki,
   waterloo,
   financebro,
-  mobileapp,
+  fomonoScreen,
+  daffodil,
 } from "../assets";
 
 export const navLinks = [
@@ -221,18 +222,18 @@ const education = [
 
 const experiences = [
   
-  {
-    title: "Information Assistant",
-    company_name: "Elections Ontario",
-    icon: elections,
-    iconBg: "#ffffff",
-    date: "June 2022",
-    points: [
-      "Performed duties in accordance with applicable standards, policies, and regulatory guidelines.",
-      "Welcomed voters and demonstrated respect, friendliness and willingness to help wherever needed.",
-      "Answered general questions and addressed, resolved or redirected escalated issues to management personnel.",
-    ],
-  },
+  // {
+  //   title: "Information Assistant",
+  //   company_name: "Elections Ontario",
+  //   icon: elections,
+  //   iconBg: "#ffffff",
+  //   date: "June 2022",
+  //   points: [
+  //     "Performed duties in accordance with applicable standards, policies, and regulatory guidelines.",
+  //     "Welcomed voters and demonstrated respect, friendliness and willingness to help wherever needed.",
+  //     "Answered general questions and addressed, resolved or redirected escalated issues to management personnel.",
+  //   ],
+  // },
   {
     title: "Software Developer",
     company_name: "Demotic Design",
@@ -276,7 +277,14 @@ const experiences = [
     date: "May 2024 - Aug 2024",
     points: [],
   },
-
+  {
+    title: "Software Engineer",
+    company_name: "Daffodil Health",
+    icon: daffodil,
+    iconBg: "#ffffff",
+    date: "May 2025 - Aug 2025",
+    points: [],
+  },
 ];
 
 const testimonials = [
@@ -309,6 +317,35 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+    name: "Fomono",
+    description: "iOS and Android app for group activity planning with Ticketmaster, OSM Maps, and Places API integration for event & place discovery. Along with AI personal assistant chat bot for suggestions and itinerary generation.",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MCP",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "OpenAI API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "violet-text-gradient",
+      },
+      
+    ],
+    image: fomonoScreen,
+    source_code_link: "https://play.google.com/store/apps/details?id=com.demoticdesign.fomono",
+  },
   {
     name: "FinanceBro",
     description: "AI chat app leveraging LLMs, RAG pipelines, agent loops, and few-shot learning to deliver accurate information and personalized financial insights. ",
@@ -344,35 +381,6 @@ const projects = [
     ],
     image: financebro,
     source_code_link: "https://github.com/Shayan925/finance-bro",
-  },
-  {
-    name: "Group Planning App",
-    description: "iOS and Android app for group activity planning with Google Maps and Places API integration for place discovery.",
-    tags: [
-      {
-        name: "Flutter",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Firebase",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Google Maps API",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Google Cloud Platform",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "NoSQL",
-        color: "violet-text-gradient",
-      },
-      
-    ],
-    image: mobileapp,
-    source_code_link: "https://github.com/Shayan925/",
   },
   {
     name: "Cube Satellite",

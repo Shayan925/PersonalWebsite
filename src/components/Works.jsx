@@ -2,7 +2,7 @@ import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, googleplayBadge, appStoreBadge } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -15,6 +15,11 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => {
+  // Fomono-specific links
+  const isFomono = name === "Fomono";
+  const playStoreLink = "https://play.google.com/store/apps/details?id=com.demoticdesign.fomono";
+  const appStoreLink = "https://apps.apple.com/us/app/fomono/id6476038572";
+
   const handleCardClick = () => {
     window.open(source_code_link, "_blank");
   };
@@ -27,21 +32,40 @@ const ProjectCard = ({
       >
         <div
           className="relative w-full h-[230px]"
-          onClick={handleCardClick} // Add click event handler here
+          onClick={handleCardClick}
         >
           <img
             src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-              <img
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
+          <div className="absolute inset-0 flex justify-start items-start m-3 card-img_hover">
+            {isFomono ? (
+              <div className="flex flex-col gap-2">
+                <a href={playStoreLink} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={googleplayBadge}
+                    alt="Google Play"
+                    className="w-28 h-10 object-contain rounded shadow-lg"
+                  />
+                </a>
+                <a href={appStoreLink} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={appStoreBadge}
+                    alt="App Store"
+                    className="w-28 h-10 object-contain rounded shadow-lg"
+                  />
+                </a>
+              </div>
+            ) : (
+              <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                <img
+                  src={github}
+                  alt="github"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            )}
           </div>
         </div>
         <div className="mt-5" style={{ paddingTop: "20px" }}>

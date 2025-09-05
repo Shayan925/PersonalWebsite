@@ -50,7 +50,10 @@ import mandelbrot from "./mandelbrot.jpg";
 import tracker from "./tracker.png";
 import cubesat from "./cubesat.png";
 import financebro from "./financebro.png";
-import mobileapp from "./mobileapp.png";
+import fomonoScreen from "./fomono-screen.png";
+import daffodil from "./company/daffodil.png";
+import googleplayBadge from "./googleplay-badge.png";
+import appStoreBadge from "./app-store-badge.png";
 export {
   logo,
   backend,
@@ -104,5 +107,8 @@ export {
   tracker,
   cubesat,
   financebro,
-  mobileapp,
+  fomonoScreen,
+  daffodil,
+  googleplayBadge,
+  appStoreBadge,
 };
